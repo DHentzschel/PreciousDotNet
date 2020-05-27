@@ -1,6 +1,8 @@
-﻿namespace PreciousDotNet.Api
+﻿using PreciousDotNet.Api.GoldPrice.Service;
+
+namespace PreciousDotNet.Api
 {
-    interface IGoldPriceRepository
+    interface IGoldPriceRepository : IGoldPriceService
     {
     }
 }
